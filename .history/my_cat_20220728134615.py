@@ -7,7 +7,7 @@ for i in range(len(sys.argv)):
         with open(sys.argv[i], 'r') as file:
             file = file.read()
             output += file
-print(output.strip())    
+print(strip(output))    
 
 
 
