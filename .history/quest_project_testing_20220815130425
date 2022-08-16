@@ -1,0 +1,14 @@
+void my_putchar(char c){
+    write(1, &c, 1);
+}
+int my_print_alphabet(){
+    int i = 0;
+    int count = 96;
+    for(i=0; i < 27; i++){
+        char * temp = "%c", count;
+        my_putchar(temp);
+    }
+}
+int main(){
+    my_print_alphabet();
+}
